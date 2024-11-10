@@ -3,9 +3,7 @@ import Image from "next/image";
 import { useState } from 'react';
 import styles from "./page.module.css";
 import nodejs from '../../public/node.png';
-import js from '../../public/js.png';
-import react from '../../public/html.png';
-import Link from "next/link";
+
 export default function Home() {
   const [imageSrc, setImageSrc] = useState('');
   const handleImageChange = (newImageSrc:any) => {
