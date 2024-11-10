@@ -5,10 +5,7 @@ import styles from "./page.module.css";
 import nodejs from '../../public/node.png';
 
 export default function Home() {
-  const [imageSrc, setImageSrc] = useState('');
-  const handleImageChange = (newImageSrc:any) => {
-    setImageSrc(newImageSrc);
-  };
+  
   return (
     <div className={styles.container}>
       <div className={styles.div1}>
