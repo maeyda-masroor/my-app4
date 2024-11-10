@@ -1,0 +1,85 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: white;
+    color: black;
+}
+.logo{
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo Link {
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+  
+.menuButton {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+  
+.navLinks {
+    display: flex;
+    gap: 2rem;
+}
+  
+.navLinks ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navLinks ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+  
+  .navLinks ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .menuButton {
+      display: block;
+    }
+  
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      padding: 1rem 0;
+    }
+  
+    .navLinks.open {
+      display: flex;
+    }
+  
+    .navLinks ul {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .navLinks ul a {
+        text-decoration: none;
+    }
+  }
+  

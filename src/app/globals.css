@@ -29,6 +29,40 @@ body {
   padding: 0;
   margin: 0;
 }
+.custom_flex {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .custom-flex {
+    flex-direction: row;
+    overflow: hidden;
+  }
+}
+.custom_class {
+  width: 100%; /* w-full */
+  flex: none;  /* flex-none */
+}
+.custom_1 {
+  flex-grow: 1; /* flex-grow */
+  padding: 1.5rem; /* p-6 (24px) */
+}
+
+@media (min-width: 768px) { /* md breakpoint */
+  .custom_1 {
+    overflow-y: auto; /* md:overflow-y-auto */
+    padding: 3rem; /* md:p-12 (48px) */
+  }
+}
+
+
+@media (min-width: 768px) { /* md breakpoint */
+  .custom_class {
+    width: 16rem; /* md:w-64 (16rem = 256px) */
+  }
+}
 
 a {
   color: inherit;
@@ -37,6 +71,6 @@ a {
 
 @media (prefers-color-scheme: dark) {
   html {
-    color-scheme: dark;
+    color-scheme: light;
   }
 }

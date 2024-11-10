@@ -1,0 +1,37 @@
+.b1{
+    background-color: white;
+    padding: 50px;
+}
+.h1{
+    font-size:100px
+}
+.div1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 20px;
+}
+.div2{
+    flex: 1;
+    background-color: black;
+    border-radius: 25px;
+    margin: 10px;
+}
+.div3{
+    flex:1;
+    margin: 10px;
+}
+.div4{
+    background-color: blue;
+}
+.h2{
+    font-size: 80px;
+}
+.h3{
+    font-size: 50px;
+    color: gray;
+}
+.p1{
+    color: gray;
+    font-size: 30px;
+}

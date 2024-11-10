@@ -1,0 +1,20 @@
+.b1{
+    background-color: white;
+    padding: 10px;
+}
+.h1{
+    font-size: 100px;
+    color: black;
+}
+.h2{
+    font-size: 30px;
+    color: black;
+}
+.p{
+    font-size: 20px;
+    color: black;
+}
+.div1{
+    display: flex;
+    padding: 10px;
+}
