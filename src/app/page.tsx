@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.div1}>
-        <h1 className={styles.h1}><a href="#" onClick={() => handleImageChange('/public/node.png')}>NODE JS.</a></h1>
-        <h1 className={styles.h1}><a href="#" onClick={() => handleImageChange('')}>JS.</a></h1>
-        <h1 className={styles.h1}><a href="#" onClick={() => handleImageChange('')}>REACT.</a></h1>
+        <h1 className={styles.h1}><a href="#" >NODE JS.</a></h1>
+        <h1 className={styles.h1}><a href="#" >JS.</a></h1>
+        <h1 className={styles.h1}><a href="#" >REACT.</a></h1>
      
       </div>
       <div className={styles.div2}>
