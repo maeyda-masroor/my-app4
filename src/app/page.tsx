@@ -24,7 +24,7 @@ export default function Home() {
             cc
           </div>
           <div className={styles.div4}>
-          {imageSrc && <Image src={imageSrc} alt="Selected" width={50} height={50} />}
+          <Image src={nodejs} alt="Selected" width={50} height={50} />
           </div>
       </div>
     </div>

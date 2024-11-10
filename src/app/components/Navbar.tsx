@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import styles from "./Navbar.module.css"; // Import the custom CSS
-import Image from "next/image";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
